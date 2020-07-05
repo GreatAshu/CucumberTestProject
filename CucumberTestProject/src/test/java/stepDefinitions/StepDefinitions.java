@@ -8,7 +8,7 @@ public class StepDefinitions {
 
 	@Given("^Open chrome and start application$")
 	public void Open_chrome_and_start_application(){
-		System.out.println("OpenBrowser");
+		System.out.println("OpenBrowsers");
 	}
 	
 	@When("I enter valid {string} and valid {string}")
