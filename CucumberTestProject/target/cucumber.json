@@ -1,0 +1,235 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-05T09:35:10.376Z",
+        "line": 11,
+        "name": "Test logon with valid credentials",
+        "description": "",
+        "id": "login-to-facebook-application;test-logon-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open chrome and start application",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.Open_chrome_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter valid \"ashu@gmail.com\" and valid \"ashu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ashu@gmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"ashu\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.StepDefinitions.i_enter_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should get error message",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.user_should_get_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-05T09:35:10.536Z",
+        "line": 12,
+        "name": "Test logon with valid credentials",
+        "description": "",
+        "id": "login-to-facebook-application;test-logon-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open chrome and start application",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.Open_chrome_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter valid \"ashu1@gmail.com\" and valid \"ashu1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ashu1@gmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"ashu1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefinitions.StepDefinitions.i_enter_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should get error message",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.user_should_get_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-05T09:35:10.549Z",
+        "line": 13,
+        "name": "Test logon with valid credentials",
+        "description": "",
+        "id": "login-to-facebook-application;test-logon-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open chrome and start application",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.Open_chrome_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter valid \"ashu2@gmail.com\" and valid \"ashu2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ashu2@gmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"ashu2\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefinitions.StepDefinitions.i_enter_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should get error message",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.user_should_get_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-05T09:35:10.563Z",
+        "line": 14,
+        "name": "Test logon with valid credentials",
+        "description": "",
+        "id": "login-to-facebook-application;test-logon-with-valid-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open chrome and start application",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.Open_chrome_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter valid \"ashu3@gmail.com\" and valid \"ashu3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ashu3@gmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"ashu3\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefinitions.StepDefinitions.i_enter_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should get error message",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.user_should_get_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login to facebook application",
+    "description": "",
+    "id": "login-to-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
