@@ -6,24 +6,40 @@
         "name": "Open chrome and start application",
         "aggregatedDurations": {
           "median": 0.0,
-          "average": 0.00125
+          "average": 0.0015
         },
         "durations": [
           {
-            "duration": 0.005,
-            "location": "file:///Users/ashutoshanand/Desktop/Eclipse/Workspace/CucumberTestProject/src/test/java/features/Login.feature:5"
+            "duration": 0.01,
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:4"
+          },
+          {
+            "duration": 0.001,
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:4"
           },
           {
             "duration": 0.0,
-            "location": "file:///Users/ashutoshanand/Desktop/Eclipse/Workspace/CucumberTestProject/src/test/java/features/Login.feature:5"
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:4"
           },
           {
             "duration": 0.0,
-            "location": "file:///Users/ashutoshanand/Desktop/Eclipse/Workspace/CucumberTestProject/src/test/java/features/Login.feature:5"
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:4"
           },
           {
             "duration": 0.0,
-            "location": "file:///Users/ashutoshanand/Desktop/Eclipse/Workspace/CucumberTestProject/src/test/java/features/Login.feature:5"
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:4"
+          },
+          {
+            "duration": 0.001,
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:4"
           }
         ]
       }
@@ -41,7 +57,7 @@
         "durations": [
           {
             "duration": 0.001,
-            "location": "file:///Users/ashutoshanand/Desktop/Eclipse/Workspace/CucumberTestProject/src/test/java/features/Login.feature:6"
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:8"
           }
         ]
       },
@@ -54,7 +70,7 @@
         "durations": [
           {
             "duration": 0.001,
-            "location": "file:///Users/ashutoshanand/Desktop/Eclipse/Workspace/CucumberTestProject/src/test/java/features/Login.feature:6"
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:8"
           }
         ]
       },
@@ -67,12 +83,60 @@
         "durations": [
           {
             "duration": 0.001,
-            "location": "file:///Users/ashutoshanand/Desktop/Eclipse/Workspace/CucumberTestProject/src/test/java/features/Login.feature:6"
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:8"
           }
         ]
       },
       {
         "name": "I enter valid \"ashu3@gmail.com\" and valid \"ashu3\"",
+        "aggregatedDurations": {
+          "median": 0.001,
+          "average": 0.001
+        },
+        "durations": [
+          {
+            "duration": 0.001,
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should not get error message$",
+    "steps": [
+      {
+        "name": "user should not get error message",
+        "aggregatedDurations": {
+          "median": 0.001,
+          "average": 0.0015
+        },
+        "durations": [
+          {
+            "duration": 0.001,
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:9"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:9"
+          },
+          {
+            "duration": 0.001,
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:9"
+          },
+          {
+            "duration": 0.004,
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I do enter valid usrname and valid password",
+    "steps": [
+      {
+        "name": "I do enter valid usrname and valid password",
         "aggregatedDurations": {
           "median": 0.0,
           "average": 0.0
@@ -80,7 +144,19 @@
         "durations": [
           {
             "duration": 0.0,
-            "location": "file:///Users/ashutoshanand/Desktop/Eclipse/Workspace/CucumberTestProject/src/test/java/features/Login.feature:6"
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:20"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:20"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:20"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:20"
           }
         ]
       }
@@ -92,25 +168,25 @@
       {
         "name": "user should get error message",
         "aggregatedDurations": {
-          "median": 5.0E-4,
-          "average": 5.0E-4
+          "median": 0.0,
+          "average": 2.5E-4
         },
         "durations": [
           {
-            "duration": 0.0,
-            "location": "file:///Users/ashutoshanand/Desktop/Eclipse/Workspace/CucumberTestProject/src/test/java/features/Login.feature:7"
-          },
-          {
             "duration": 0.001,
-            "location": "file:///Users/ashutoshanand/Desktop/Eclipse/Workspace/CucumberTestProject/src/test/java/features/Login.feature:7"
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:21"
           },
           {
             "duration": 0.0,
-            "location": "file:///Users/ashutoshanand/Desktop/Eclipse/Workspace/CucumberTestProject/src/test/java/features/Login.feature:7"
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:21"
           },
           {
-            "duration": 0.001,
-            "location": "file:///Users/ashutoshanand/Desktop/Eclipse/Workspace/CucumberTestProject/src/test/java/features/Login.feature:7"
+            "duration": 0.0,
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:21"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///Users/ashutoshanand/git/CucumberTestProject/CucumberTestProject/src/test/java/features/Login.feature:21"
           }
         ]
       }
